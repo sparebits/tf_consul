@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 set -e
 
 sudo iptables -I INPUT -s 0/0 -p tcp --dport 8300 -j ACCEPT
